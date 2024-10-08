@@ -1,0 +1,25 @@
+{
+  "name": "phpdevcommunity/php-flash",
+  "description": "PHP Flash is a lightweight library for managing message flash functionality in PHP applications. It allows you to easily display temporary messages, such as success messages, warnings, and error notifications, to enhance the user experience.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "F. Michel",
+      "homepage": "https://www.phpdevcommunity.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpDevCommunity\\Flash\\": "src",
+      "Test\\PhpDevCommunity\\Flash\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpdevcommunity/unitester": "^0.1.0@alpha"
+  },
+  "minimum-stability": "alpha"
+}
